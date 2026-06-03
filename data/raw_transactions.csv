@@ -1,0 +1,301 @@
+transaction_id,claimant_id,claimant_name,payment_type,amount,payment_date,region,is_flagged,flag_reason,processed_by
+TXN00001,C011,Karen Davis,Weekly Benefit,1338.76,2024-05-20,Vancouver,0,,EMP002
+TXN00002,C011,Karen Davis,Medical Reimbursement,1281.0,2024-10-29,Surrey,1,Duplicate Payment,EMP009
+TXN00003,C010,James Wilson,Weekly Benefit,2342.91,2024-11-28,Richmond,0,,EMP008
+TXN00004,C010,James Wilson,Rehabilitation Allowance,2335.91,2024-03-22,Vancouver,0,,EMP003
+TXN00005,C004,David Chen,Rehabilitation Allowance,1635.84,2024-02-17,Surrey,0,,EMP006
+TXN00006,C010,James Wilson,Rehabilitation Allowance,1979.7,2024-08-23,Vancouver,0,,EMP007
+TXN00007,C002,Bob Martinez,Medical Reimbursement,2160.74,2024-11-17,Abbotsford,0,,EMP010
+TXN00008,C004,David Chen,Weekly Benefit,1301.38,2024-12-04,Vancouver,0,,EMP002
+TXN00009,C014,Nathan Scott,Pension,1411.54,2024-07-13,Surrey,0,,EMP006
+TXN00010,C003,Carol White,Rehabilitation Allowance,2274.39,2024-04-17,Kelowna,0,,EMP002
+TXN00011,C010,James Wilson,Pension,1816.97,2024-03-24,Richmond,0,,EMP009
+TXN00012,C004,David Chen,Rehabilitation Allowance,2607.97,2024-04-27,Vancouver,0,,EMP007
+TXN00013,C005,Emma Singh,Weekly Benefit,2728.01,2024-10-17,Richmond,0,,EMP008
+TXN00014,C007,Grace Kim,Short-Term Disability,1107.19,2024-05-15,Burnaby,0,,EMP009
+TXN00015,C005,Emma Singh,Medical Reimbursement,1678.68,2024-10-25,Victoria,0,,EMP003
+TXN00016,C009,Irene Brown,Short-Term Disability,2694.43,2024-01-25,Surrey,0,,EMP003
+TXN00017,C013,Maria Garcia,Short-Term Disability,1639.56,2024-07-16,Surrey,0,,EMP009
+TXN00018,C005,Emma Singh,Medical Reimbursement,2385.59,2024-12-14,Vancouver,0,,EMP009
+TXN00019,C013,Maria Garcia,Rehabilitation Allowance,1445.7,2024-02-27,Kelowna,0,,EMP001
+TXN00020,C012,Louis Tremblay,Rehabilitation Allowance,2807.78,2024-09-16,Burnaby,0,,EMP005
+TXN00021,C014,Nathan Scott,Medical Reimbursement,1622.61,2024-03-19,Richmond,0,,EMP009
+TXN00022,C015,Olivia Thompson,Weekly Benefit,842.85,2024-09-07,Kelowna,0,,EMP005
+TXN00023,C004,David Chen,Weekly Benefit,2883.29,2024-10-17,Richmond,1,Inactive Claimant Status,EMP008
+TXN00024,C014,Nathan Scott,Weekly Benefit,2251.45,2024-03-06,Burnaby,0,,EMP003
+TXN00025,C005,Emma Singh,Medical Reimbursement,2843.61,2024-04-18,Victoria,0,,EMP004
+TXN00026,C012,Louis Tremblay,Rehabilitation Allowance,2229.73,2024-12-09,Victoria,0,,EMP009
+TXN00027,C008,Henry Patel,Weekly Benefit,2018.63,2024-04-25,Richmond,1,Duplicate Payment,EMP010
+TXN00028,C004,David Chen,Weekly Benefit,2188.43,2024-12-28,Surrey,0,,EMP001
+TXN00029,C014,Nathan Scott,Rehabilitation Allowance,1323.61,2024-09-20,Surrey,0,,EMP004
+TXN00030,C009,Irene Brown,Pension,2526.16,2024-05-04,Prince George,0,,EMP004
+TXN00031,C002,Bob Martinez,Weekly Benefit,1731.87,2024-06-30,Victoria,0,,EMP001
+TXN00032,C011,Karen Davis,Weekly Benefit,2402.07,2024-07-25,Vancouver,0,,EMP002
+TXN00033,C004,David Chen,Pension,1786.95,2024-10-01,Richmond,0,,EMP005
+TXN00034,C008,Henry Patel,Pension,2577.65,2024-08-14,Surrey,0,,EMP002
+TXN00035,C001,Alice Johnson,Medical Reimbursement,2838.01,2024-02-17,Vancouver,0,,EMP003
+TXN00036,C007,Grace Kim,Short-Term Disability,2702.23,2024-04-19,Prince George,0,,EMP003
+TXN00037,C007,Grace Kim,Weekly Benefit,2838.34,2024-05-15,Victoria,0,,EMP005
+TXN00038,C007,Grace Kim,Medical Reimbursement,1217.78,2024-03-20,Prince George,0,,EMP001
+TXN00039,C010,James Wilson,Medical Reimbursement,925.76,2024-06-09,Vancouver,0,,EMP009
+TXN00040,C015,Olivia Thompson,Medical Reimbursement,2913.71,2024-01-30,Burnaby,1,Inactive Claimant Status,EMP003
+TXN00041,C002,Bob Martinez,Medical Reimbursement,2696.0,2024-12-11,Surrey,0,,EMP010
+TXN00042,C004,David Chen,Medical Reimbursement,980.36,2024-11-13,Vancouver,0,,EMP010
+TXN00043,C009,Irene Brown,Rehabilitation Allowance,2273.4,2024-04-14,Abbotsford,0,,EMP005
+TXN00044,C007,Grace Kim,Pension,1495.59,2024-08-22,Abbotsford,0,,EMP002
+TXN00045,C001,Alice Johnson,Short-Term Disability,1982.8,2024-02-07,Surrey,0,,EMP003
+TXN00046,C015,Olivia Thompson,Rehabilitation Allowance,1612.96,2024-05-05,Surrey,0,,EMP009
+TXN00047,C012,Louis Tremblay,Rehabilitation Allowance,2597.63,2024-12-07,Vancouver,0,,EMP002
+TXN00048,C015,Olivia Thompson,Pension,2757.37,2024-02-29,Abbotsford,0,,EMP003
+TXN00049,C005,Emma Singh,Rehabilitation Allowance,1247.91,2024-06-24,Richmond,0,,EMP005
+TXN00050,C009,Irene Brown,Short-Term Disability,1003.06,2024-01-27,Abbotsford,0,,EMP005
+TXN00051,C001,Alice Johnson,Weekly Benefit,2201.65,2024-03-07,Kelowna,0,,EMP008
+TXN00052,C009,Irene Brown,Short-Term Disability,965.54,2024-02-27,Vancouver,0,,EMP003
+TXN00053,C009,Irene Brown,Weekly Benefit,2015.56,2024-10-25,Kelowna,0,,EMP001
+TXN00054,C005,Emma Singh,Rehabilitation Allowance,1262.17,2024-07-02,Vancouver,0,,EMP002
+TXN00055,C006,Frank Lee,Medical Reimbursement,2448.85,2024-11-13,Victoria,0,,EMP004
+TXN00056,C014,Nathan Scott,Pension,854.53,2024-07-30,Burnaby,0,,EMP006
+TXN00057,C013,Maria Garcia,Short-Term Disability,1150.24,2024-05-16,Richmond,0,,EMP007
+TXN00058,C014,Nathan Scott,Weekly Benefit,1239.06,2024-04-23,Prince George,0,,EMP006
+TXN00059,C005,Emma Singh,Pension,2252.07,2024-01-13,Richmond,0,,EMP005
+TXN00060,C014,Nathan Scott,Weekly Benefit,2211.26,2024-06-28,Abbotsford,0,,EMP009
+TXN00061,C006,Frank Lee,Weekly Benefit,1192.85,2024-05-13,Surrey,0,,EMP005
+TXN00062,C001,Alice Johnson,Weekly Benefit,2402.8,2024-06-25,Victoria,0,,EMP010
+TXN00063,C009,Irene Brown,Weekly Benefit,8052.4,2024-10-22,Victoria,1,Amount Exceeds Threshold,EMP009
+TXN00064,C015,Olivia Thompson,Medical Reimbursement,1748.85,2024-07-05,Richmond,0,,EMP006
+TXN00065,C010,James Wilson,Rehabilitation Allowance,1915.67,2024-06-02,Surrey,0,,EMP006
+TXN00066,C007,Grace Kim,Rehabilitation Allowance,1724.98,2024-04-08,Burnaby,0,,EMP003
+TXN00067,C010,James Wilson,Medical Reimbursement,1431.21,2024-07-26,Abbotsford,1,Duplicate Payment,EMP007
+TXN00068,C013,Maria Garcia,Medical Reimbursement,1771.93,2024-08-26,Kelowna,0,,EMP009
+TXN00069,C008,Henry Patel,Pension,1933.99,2024-05-25,Surrey,0,,EMP006
+TXN00070,C002,Bob Martinez,Pension,2574.44,2024-04-25,Abbotsford,0,,EMP001
+TXN00071,C004,David Chen,Short-Term Disability,1711.77,2024-08-21,Surrey,0,,EMP004
+TXN00072,C012,Louis Tremblay,Short-Term Disability,1336.77,2024-07-23,Prince George,0,,EMP001
+TXN00073,C015,Olivia Thompson,Weekly Benefit,1186.95,2024-04-22,Victoria,0,,EMP009
+TXN00074,C008,Henry Patel,Weekly Benefit,1804.22,2024-03-03,Richmond,0,,EMP009
+TXN00075,C009,Irene Brown,Medical Reimbursement,2147.84,2024-08-14,Kelowna,0,,EMP009
+TXN00076,C007,Grace Kim,Medical Reimbursement,2436.04,2024-03-22,Prince George,0,,EMP005
+TXN00077,C013,Maria Garcia,Pension,1866.11,2024-09-23,Abbotsford,0,,EMP008
+TXN00078,C002,Bob Martinez,Rehabilitation Allowance,1538.86,2024-05-19,Richmond,0,,EMP002
+TXN00079,C003,Carol White,Pension,2326.69,2024-07-15,Richmond,0,,EMP002
+TXN00080,C007,Grace Kim,Short-Term Disability,10830.24,2024-10-04,Kelowna,1,Amount Exceeds Threshold,EMP007
+TXN00081,C015,Olivia Thompson,Medical Reimbursement,1573.87,2024-10-21,Vancouver,1,Duplicate Payment,EMP007
+TXN00082,C014,Nathan Scott,Short-Term Disability,1282.73,2024-09-06,Richmond,0,,EMP001
+TXN00083,C007,Grace Kim,Rehabilitation Allowance,2649.11,2024-03-25,Victoria,0,,EMP010
+TXN00084,C009,Irene Brown,Weekly Benefit,2214.05,2024-10-30,Victoria,1,Duplicate Payment,EMP003
+TXN00085,C014,Nathan Scott,Short-Term Disability,1372.34,2024-01-26,Burnaby,0,,EMP008
+TXN00086,C006,Frank Lee,Rehabilitation Allowance,2454.42,2024-05-22,Victoria,0,,EMP005
+TXN00087,C014,Nathan Scott,Weekly Benefit,11663.44,2024-01-10,Prince George,1,Amount Exceeds Threshold,EMP004
+TXN00088,C011,Karen Davis,Weekly Benefit,2889.15,2024-01-16,Vancouver,0,,EMP001
+TXN00089,C010,James Wilson,Pension,1841.83,2024-03-05,Richmond,1,Multiple Payments Same Day,EMP004
+TXN00090,C008,Henry Patel,Rehabilitation Allowance,2132.96,2024-03-26,Kelowna,0,,EMP002
+TXN00091,C013,Maria Garcia,Pension,2073.11,2024-02-25,Abbotsford,0,,EMP010
+TXN00092,C011,Karen Davis,Short-Term Disability,967.19,2024-04-11,Victoria,0,,EMP004
+TXN00093,C002,Bob Martinez,Rehabilitation Allowance,2521.8,2024-10-16,Surrey,0,,EMP007
+TXN00094,C011,Karen Davis,Rehabilitation Allowance,1724.13,2024-09-16,Surrey,1,Duplicate Payment,EMP008
+TXN00095,C002,Bob Martinez,Short-Term Disability,2761.47,2024-11-21,Kelowna,0,,EMP003
+TXN00096,C007,Grace Kim,Pension,2578.04,2024-11-11,Abbotsford,0,,EMP008
+TXN00097,C008,Henry Patel,Short-Term Disability,2673.77,2024-06-14,Abbotsford,0,,EMP002
+TXN00098,C005,Emma Singh,Short-Term Disability,2053.67,2024-08-25,Richmond,0,,EMP006
+TXN00099,C001,Alice Johnson,Short-Term Disability,1872.61,2024-04-03,Kelowna,0,,EMP005
+TXN00100,C006,Frank Lee,Rehabilitation Allowance,822.33,2024-10-11,Abbotsford,0,,EMP002
+TXN00101,C004,David Chen,Short-Term Disability,2467.96,2024-10-11,Prince George,0,,EMP008
+TXN00102,C008,Henry Patel,Weekly Benefit,1287.51,2024-05-30,Surrey,0,,EMP005
+TXN00103,C011,Karen Davis,Medical Reimbursement,2017.64,2024-08-30,Kelowna,0,,EMP009
+TXN00104,C006,Frank Lee,Rehabilitation Allowance,1474.57,2024-05-18,Prince George,0,,EMP004
+TXN00105,C006,Frank Lee,Weekly Benefit,1276.05,2024-04-08,Burnaby,0,,EMP010
+TXN00106,C013,Maria Garcia,Medical Reimbursement,2631.78,2024-02-21,Abbotsford,0,,EMP006
+TXN00107,C003,Carol White,Rehabilitation Allowance,1975.1,2024-12-28,Vancouver,0,,EMP001
+TXN00108,C009,Irene Brown,Rehabilitation Allowance,2710.61,2024-11-22,Burnaby,0,,EMP001
+TXN00109,C010,James Wilson,Rehabilitation Allowance,1769.03,2024-09-02,Prince George,0,,EMP001
+TXN00110,C005,Emma Singh,Short-Term Disability,9406.12,2024-02-03,Surrey,1,Amount Exceeds Threshold,EMP001
+TXN00111,C003,Carol White,Pension,2986.62,2024-02-13,Abbotsford,1,Multiple Payments Same Day,EMP007
+TXN00112,C010,James Wilson,Medical Reimbursement,1636.83,2024-09-24,Richmond,0,,EMP005
+TXN00113,C014,Nathan Scott,Medical Reimbursement,11720.76,2024-06-05,Victoria,1,Amount Exceeds Threshold,EMP002
+TXN00114,C013,Maria Garcia,Pension,2252.94,2024-05-15,Richmond,0,,EMP003
+TXN00115,C009,Irene Brown,Weekly Benefit,1698.74,2024-01-02,Burnaby,0,,EMP008
+TXN00116,C005,Emma Singh,Weekly Benefit,2355.3,2024-05-27,Richmond,0,,EMP008
+TXN00117,C002,Bob Martinez,Pension,2097.54,2024-11-16,Abbotsford,0,,EMP004
+TXN00118,C007,Grace Kim,Weekly Benefit,1127.78,2024-11-27,Richmond,0,,EMP003
+TXN00119,C002,Bob Martinez,Weekly Benefit,2109.1,2024-06-06,Burnaby,0,,EMP005
+TXN00120,C008,Henry Patel,Weekly Benefit,1469.0,2024-12-18,Prince George,0,,EMP005
+TXN00121,C009,Irene Brown,Medical Reimbursement,1750.46,2024-08-12,Prince George,1,Duplicate Payment,EMP006
+TXN00122,C010,James Wilson,Rehabilitation Allowance,1303.63,2024-02-16,Vancouver,0,,EMP010
+TXN00123,C010,James Wilson,Weekly Benefit,888.51,2024-10-22,Abbotsford,0,,EMP008
+TXN00124,C009,Irene Brown,Short-Term Disability,2993.28,2024-04-02,Abbotsford,0,,EMP008
+TXN00125,C002,Bob Martinez,Short-Term Disability,1533.28,2024-07-28,Kelowna,0,,EMP003
+TXN00126,C006,Frank Lee,Short-Term Disability,2257.68,2024-05-27,Prince George,0,,EMP009
+TXN00127,C001,Alice Johnson,Short-Term Disability,1355.28,2024-06-10,Surrey,1,Multiple Payments Same Day,EMP007
+TXN00128,C014,Nathan Scott,Medical Reimbursement,2712.61,2024-12-02,Vancouver,0,,EMP001
+TXN00129,C004,David Chen,Medical Reimbursement,2464.17,2024-11-14,Kelowna,0,,EMP001
+TXN00130,C004,David Chen,Rehabilitation Allowance,1763.86,2024-05-27,Burnaby,0,,EMP002
+TXN00131,C001,Alice Johnson,Medical Reimbursement,1148.43,2024-12-29,Richmond,0,,EMP009
+TXN00132,C007,Grace Kim,Weekly Benefit,1815.19,2024-02-28,Richmond,1,Multiple Payments Same Day,EMP003
+TXN00133,C008,Henry Patel,Rehabilitation Allowance,2636.39,2024-07-31,Abbotsford,0,,EMP004
+TXN00134,C008,Henry Patel,Medical Reimbursement,1219.34,2024-07-15,Burnaby,0,,EMP003
+TXN00135,C014,Nathan Scott,Weekly Benefit,1547.73,2024-07-31,Abbotsford,0,,EMP005
+TXN00136,C014,Nathan Scott,Weekly Benefit,2642.45,2024-06-01,Abbotsford,0,,EMP008
+TXN00137,C014,Nathan Scott,Pension,1865.55,2024-10-02,Prince George,0,,EMP009
+TXN00138,C007,Grace Kim,Short-Term Disability,2957.7,2024-04-06,Kelowna,0,,EMP007
+TXN00139,C004,David Chen,Short-Term Disability,2438.35,2024-06-11,Vancouver,0,,EMP007
+TXN00140,C007,Grace Kim,Pension,1077.74,2024-01-19,Prince George,0,,EMP006
+TXN00141,C014,Nathan Scott,Weekly Benefit,1957.09,2024-02-21,Prince George,0,,EMP003
+TXN00142,C007,Grace Kim,Pension,2519.36,2024-08-28,Surrey,0,,EMP010
+TXN00143,C012,Louis Tremblay,Short-Term Disability,2675.15,2024-06-17,Surrey,0,,EMP007
+TXN00144,C006,Frank Lee,Short-Term Disability,950.53,2024-11-12,Vancouver,0,,EMP005
+TXN00145,C004,David Chen,Weekly Benefit,2472.81,2024-02-20,Victoria,0,,EMP002
+TXN00146,C008,Henry Patel,Pension,901.18,2024-01-15,Abbotsford,0,,EMP005
+TXN00147,C006,Frank Lee,Rehabilitation Allowance,1337.23,2024-03-15,Victoria,0,,EMP003
+TXN00148,C003,Carol White,Pension,2715.85,2024-11-08,Surrey,0,,EMP004
+TXN00149,C008,Henry Patel,Medical Reimbursement,1814.53,2024-04-28,Burnaby,0,,EMP005
+TXN00150,C011,Karen Davis,Weekly Benefit,2290.74,2024-05-27,Prince George,0,,EMP008
+TXN00151,C006,Frank Lee,Medical Reimbursement,2916.46,2024-11-23,Abbotsford,0,,EMP008
+TXN00152,C014,Nathan Scott,Rehabilitation Allowance,2677.34,2024-07-15,Richmond,1,Inactive Claimant Status,EMP007
+TXN00153,C010,James Wilson,Rehabilitation Allowance,1449.51,2024-12-24,Abbotsford,0,,EMP007
+TXN00154,C005,Emma Singh,Weekly Benefit,2439.38,2024-11-06,Vancouver,0,,EMP005
+TXN00155,C013,Maria Garcia,Pension,2200.56,2024-04-22,Kelowna,0,,EMP003
+TXN00156,C011,Karen Davis,Weekly Benefit,1602.69,2024-06-07,Vancouver,1,Duplicate Payment,EMP003
+TXN00157,C002,Bob Martinez,Rehabilitation Allowance,1186.41,2024-07-31,Kelowna,0,,EMP009
+TXN00158,C015,Olivia Thompson,Rehabilitation Allowance,1365.33,2024-03-25,Abbotsford,0,,EMP008
+TXN00159,C013,Maria Garcia,Rehabilitation Allowance,10279.06,2024-02-28,Kelowna,1,Amount Exceeds Threshold,EMP004
+TXN00160,C014,Nathan Scott,Short-Term Disability,1980.46,2024-02-16,Kelowna,1,Duplicate Payment,EMP008
+TXN00161,C006,Frank Lee,Rehabilitation Allowance,2868.64,2024-11-22,Victoria,1,Inactive Claimant Status,EMP004
+TXN00162,C008,Henry Patel,Weekly Benefit,10766.99,2024-11-08,Kelowna,1,Amount Exceeds Threshold,EMP005
+TXN00163,C011,Karen Davis,Short-Term Disability,2991.04,2024-03-12,Surrey,1,Duplicate Payment,EMP002
+TXN00164,C002,Bob Martinez,Pension,1798.02,2024-07-17,Burnaby,0,,EMP009
+TXN00165,C007,Grace Kim,Medical Reimbursement,2240.83,2024-07-31,Burnaby,0,,EMP010
+TXN00166,C007,Grace Kim,Rehabilitation Allowance,1615.17,2024-12-19,Vancouver,0,,EMP004
+TXN00167,C014,Nathan Scott,Rehabilitation Allowance,1608.14,2024-12-17,Surrey,0,,EMP006
+TXN00168,C001,Alice Johnson,Short-Term Disability,2930.06,2024-04-07,Abbotsford,0,,EMP008
+TXN00169,C002,Bob Martinez,Pension,2530.95,2024-01-26,Vancouver,0,,EMP003
+TXN00170,C013,Maria Garcia,Medical Reimbursement,2625.6,2024-02-05,Richmond,0,,EMP010
+TXN00171,C004,David Chen,Pension,2535.02,2024-03-16,Kelowna,0,,EMP005
+TXN00172,C014,Nathan Scott,Pension,1351.44,2024-10-03,Burnaby,0,,EMP001
+TXN00173,C003,Carol White,Weekly Benefit,1383.81,2024-05-01,Kelowna,1,Duplicate Payment,EMP003
+TXN00174,C012,Louis Tremblay,Short-Term Disability,1847.74,2024-02-02,Surrey,0,,EMP009
+TXN00175,C010,James Wilson,Weekly Benefit,1287.41,2024-09-14,Prince George,0,,EMP009
+TXN00176,C005,Emma Singh,Short-Term Disability,2996.89,2024-02-01,Vancouver,0,,EMP007
+TXN00177,C011,Karen Davis,Weekly Benefit,5565.53,2024-12-30,Prince George,1,Amount Exceeds Threshold,EMP010
+TXN00178,C003,Carol White,Weekly Benefit,2173.5,2024-05-20,Burnaby,0,,EMP006
+TXN00179,C007,Grace Kim,Medical Reimbursement,1912.21,2024-08-20,Abbotsford,0,,EMP002
+TXN00180,C014,Nathan Scott,Medical Reimbursement,1793.42,2024-08-08,Richmond,0,,EMP006
+TXN00181,C014,Nathan Scott,Short-Term Disability,2405.15,2024-07-31,Victoria,0,,EMP006
+TXN00182,C011,Karen Davis,Rehabilitation Allowance,2311.01,2024-03-19,Kelowna,0,,EMP002
+TXN00183,C014,Nathan Scott,Weekly Benefit,1012.44,2024-08-09,Surrey,0,,EMP003
+TXN00184,C009,Irene Brown,Weekly Benefit,1068.91,2024-12-09,Kelowna,0,,EMP007
+TXN00185,C014,Nathan Scott,Weekly Benefit,1487.39,2024-11-03,Abbotsford,1,Inactive Claimant Status,EMP009
+TXN00186,C004,David Chen,Pension,2664.0,2024-04-24,Prince George,0,,EMP009
+TXN00187,C006,Frank Lee,Weekly Benefit,1297.55,2024-10-20,Abbotsford,0,,EMP009
+TXN00188,C013,Maria Garcia,Medical Reimbursement,2843.99,2024-11-07,Vancouver,0,,EMP005
+TXN00189,C001,Alice Johnson,Pension,2477.3,2024-12-25,Abbotsford,0,,EMP006
+TXN00190,C001,Alice Johnson,Pension,10186.78,2024-10-16,Burnaby,1,Amount Exceeds Threshold,EMP001
+TXN00191,C002,Bob Martinez,Medical Reimbursement,1723.63,2024-07-11,Richmond,0,,EMP006
+TXN00192,C005,Emma Singh,Rehabilitation Allowance,1142.28,2024-01-27,Surrey,0,,EMP001
+TXN00193,C011,Karen Davis,Weekly Benefit,2256.27,2024-08-14,Abbotsford,0,,EMP008
+TXN00194,C007,Grace Kim,Rehabilitation Allowance,1050.4,2024-09-19,Richmond,0,,EMP005
+TXN00195,C011,Karen Davis,Medical Reimbursement,7766.84,2024-09-26,Prince George,1,Amount Exceeds Threshold,EMP010
+TXN00196,C001,Alice Johnson,Weekly Benefit,2879.71,2024-06-03,Richmond,0,,EMP005
+TXN00197,C005,Emma Singh,Rehabilitation Allowance,1894.25,2024-01-04,Surrey,0,,EMP003
+TXN00198,C007,Grace Kim,Medical Reimbursement,2029.19,2024-09-13,Richmond,0,,EMP006
+TXN00199,C002,Bob Martinez,Short-Term Disability,841.23,2024-08-11,Vancouver,0,,EMP006
+TXN00200,C010,James Wilson,Short-Term Disability,2208.31,2024-12-29,Victoria,0,,EMP007
+TXN00201,C001,Alice Johnson,Rehabilitation Allowance,1812.21,2024-11-12,Burnaby,0,,EMP006
+TXN00202,C002,Bob Martinez,Short-Term Disability,1758.49,2024-05-04,Surrey,0,,EMP002
+TXN00203,C007,Grace Kim,Rehabilitation Allowance,1532.75,2024-04-23,Kelowna,0,,EMP009
+TXN00204,C011,Karen Davis,Weekly Benefit,1572.42,2024-06-27,Richmond,0,,EMP003
+TXN00205,C004,David Chen,Weekly Benefit,1234.0,2024-05-11,Burnaby,0,,EMP002
+TXN00206,C003,Carol White,Short-Term Disability,2471.73,2024-10-15,Prince George,0,,EMP010
+TXN00207,C011,Karen Davis,Medical Reimbursement,1495.51,2024-11-17,Kelowna,0,,EMP008
+TXN00208,C008,Henry Patel,Rehabilitation Allowance,923.58,2024-10-29,Abbotsford,0,,EMP005
+TXN00209,C008,Henry Patel,Short-Term Disability,1611.22,2024-01-30,Vancouver,0,,EMP002
+TXN00210,C010,James Wilson,Medical Reimbursement,2076.72,2024-08-24,Victoria,0,,EMP001
+TXN00211,C008,Henry Patel,Medical Reimbursement,2131.01,2024-06-13,Richmond,0,,EMP001
+TXN00212,C008,Henry Patel,Weekly Benefit,985.52,2024-12-31,Kelowna,0,,EMP001
+TXN00213,C004,David Chen,Short-Term Disability,1950.05,2024-09-25,Prince George,0,,EMP006
+TXN00214,C015,Olivia Thompson,Rehabilitation Allowance,2503.82,2024-07-28,Victoria,0,,EMP001
+TXN00215,C013,Maria Garcia,Rehabilitation Allowance,1007.91,2024-06-17,Surrey,0,,EMP005
+TXN00216,C005,Emma Singh,Medical Reimbursement,979.3,2024-06-19,Burnaby,0,,EMP006
+TXN00217,C005,Emma Singh,Short-Term Disability,2359.43,2024-10-31,Burnaby,1,Inactive Claimant Status,EMP009
+TXN00218,C007,Grace Kim,Rehabilitation Allowance,2346.23,2024-12-09,Burnaby,0,,EMP009
+TXN00219,C002,Bob Martinez,Short-Term Disability,1597.71,2024-01-10,Kelowna,0,,EMP004
+TXN00220,C006,Frank Lee,Short-Term Disability,2999.95,2024-04-25,Richmond,0,,EMP005
+TXN00221,C014,Nathan Scott,Weekly Benefit,1540.88,2024-12-04,Vancouver,0,,EMP003
+TXN00222,C010,James Wilson,Short-Term Disability,1197.86,2024-03-24,Burnaby,0,,EMP010
+TXN00223,C013,Maria Garcia,Pension,1703.89,2024-01-23,Prince George,0,,EMP004
+TXN00224,C008,Henry Patel,Medical Reimbursement,1314.81,2024-08-17,Abbotsford,0,,EMP008
+TXN00225,C015,Olivia Thompson,Pension,2883.69,2024-12-13,Kelowna,0,,EMP008
+TXN00226,C013,Maria Garcia,Rehabilitation Allowance,1960.41,2024-09-14,Victoria,0,,EMP004
+TXN00227,C013,Maria Garcia,Medical Reimbursement,914.8,2024-05-08,Burnaby,0,,EMP006
+TXN00228,C009,Irene Brown,Weekly Benefit,984.53,2024-05-25,Surrey,0,,EMP008
+TXN00229,C015,Olivia Thompson,Medical Reimbursement,1001.77,2024-08-11,Burnaby,0,,EMP008
+TXN00230,C015,Olivia Thompson,Rehabilitation Allowance,917.17,2024-07-31,Vancouver,0,,EMP004
+TXN00231,C007,Grace Kim,Weekly Benefit,862.01,2024-04-24,Kelowna,0,,EMP006
+TXN00232,C013,Maria Garcia,Pension,1431.13,2024-01-20,Burnaby,0,,EMP003
+TXN00233,C013,Maria Garcia,Short-Term Disability,6791.47,2024-11-11,Prince George,1,Amount Exceeds Threshold,EMP003
+TXN00234,C009,Irene Brown,Medical Reimbursement,2507.58,2024-02-26,Victoria,0,,EMP002
+TXN00235,C001,Alice Johnson,Pension,2546.58,2024-11-23,Victoria,0,,EMP002
+TXN00236,C014,Nathan Scott,Short-Term Disability,1933.83,2024-11-19,Vancouver,0,,EMP003
+TXN00237,C005,Emma Singh,Short-Term Disability,1576.2,2024-11-10,Vancouver,0,,EMP003
+TXN00238,C011,Karen Davis,Weekly Benefit,2897.49,2024-02-04,Kelowna,0,,EMP009
+TXN00239,C009,Irene Brown,Weekly Benefit,895.78,2024-08-28,Victoria,0,,EMP006
+TXN00240,C005,Emma Singh,Weekly Benefit,1558.57,2024-02-04,Kelowna,0,,EMP002
+TXN00241,C013,Maria Garcia,Medical Reimbursement,897.54,2024-03-09,Kelowna,0,,EMP003
+TXN00242,C014,Nathan Scott,Short-Term Disability,1201.01,2024-11-19,Prince George,0,,EMP008
+TXN00243,C001,Alice Johnson,Rehabilitation Allowance,2540.44,2024-01-23,Richmond,0,,EMP006
+TXN00244,C015,Olivia Thompson,Rehabilitation Allowance,2223.18,2024-10-05,Victoria,1,Duplicate Payment,EMP005
+TXN00245,C006,Frank Lee,Weekly Benefit,1073.85,2024-05-19,Kelowna,0,,EMP007
+TXN00246,C012,Louis Tremblay,Short-Term Disability,2942.19,2024-06-22,Victoria,0,,EMP008
+TXN00247,C006,Frank Lee,Medical Reimbursement,9217.17,2024-02-12,Abbotsford,1,Amount Exceeds Threshold,EMP003
+TXN00248,C009,Irene Brown,Rehabilitation Allowance,976.15,2024-02-22,Kelowna,0,,EMP005
+TXN00249,C008,Henry Patel,Medical Reimbursement,2317.48,2024-03-26,Victoria,0,,EMP001
+TXN00250,C012,Louis Tremblay,Rehabilitation Allowance,2206.83,2024-05-20,Victoria,0,,EMP001
+TXN00251,C002,Bob Martinez,Short-Term Disability,2562.41,2024-09-19,Kelowna,0,,EMP001
+TXN00252,C003,Carol White,Medical Reimbursement,1077.71,2024-01-18,Prince George,0,,EMP006
+TXN00253,C006,Frank Lee,Short-Term Disability,1137.56,2024-11-05,Vancouver,0,,EMP006
+TXN00254,C006,Frank Lee,Short-Term Disability,1102.93,2024-10-20,Surrey,0,,EMP006
+TXN00255,C011,Karen Davis,Rehabilitation Allowance,857.01,2024-02-28,Richmond,0,,EMP009
+TXN00256,C007,Grace Kim,Medical Reimbursement,2504.92,2024-05-14,Surrey,0,,EMP004
+TXN00257,C010,James Wilson,Rehabilitation Allowance,1069.8,2024-04-12,Prince George,0,,EMP008
+TXN00258,C003,Carol White,Short-Term Disability,2928.63,2024-12-15,Surrey,0,,EMP006
+TXN00259,C012,Louis Tremblay,Weekly Benefit,2673.0,2024-06-02,Abbotsford,0,,EMP003
+TXN00260,C013,Maria Garcia,Rehabilitation Allowance,2967.29,2024-03-03,Richmond,0,,EMP004
+TXN00261,C013,Maria Garcia,Short-Term Disability,2018.85,2024-07-03,Vancouver,0,,EMP009
+TXN00262,C003,Carol White,Medical Reimbursement,1480.44,2024-02-03,Surrey,0,,EMP008
+TXN00263,C009,Irene Brown,Short-Term Disability,962.25,2024-10-21,Victoria,0,,EMP002
+TXN00264,C008,Henry Patel,Short-Term Disability,2731.51,2024-03-06,Kelowna,0,,EMP010
+TXN00265,C003,Carol White,Pension,5869.13,2024-09-14,Victoria,1,Amount Exceeds Threshold,EMP003
+TXN00266,C005,Emma Singh,Pension,2856.42,2024-06-14,Burnaby,0,,EMP009
+TXN00267,C015,Olivia Thompson,Rehabilitation Allowance,1231.86,2024-05-08,Surrey,0,,EMP005
+TXN00268,C003,Carol White,Rehabilitation Allowance,2210.17,2024-09-14,Surrey,0,,EMP010
+TXN00269,C003,Carol White,Pension,890.63,2024-10-15,Kelowna,0,,EMP002
+TXN00270,C001,Alice Johnson,Medical Reimbursement,1263.78,2024-11-29,Abbotsford,0,,EMP010
+TXN00271,C011,Karen Davis,Weekly Benefit,2000.27,2024-11-17,Prince George,0,,EMP005
+TXN00272,C008,Henry Patel,Pension,1797.8,2024-06-01,Victoria,0,,EMP003
+TXN00273,C008,Henry Patel,Short-Term Disability,1248.85,2024-08-25,Prince George,0,,EMP006
+TXN00274,C014,Nathan Scott,Rehabilitation Allowance,1087.69,2024-07-23,Kelowna,0,,EMP009
+TXN00275,C002,Bob Martinez,Rehabilitation Allowance,1069.55,2024-08-26,Richmond,0,,EMP003
+TXN00276,C002,Bob Martinez,Weekly Benefit,2701.16,2024-07-15,Abbotsford,0,,EMP003
+TXN00277,C014,Nathan Scott,Rehabilitation Allowance,2478.87,2024-04-07,Kelowna,0,,EMP009
+TXN00278,C008,Henry Patel,Short-Term Disability,850.99,2024-09-11,Abbotsford,0,,EMP009
+TXN00279,C008,Henry Patel,Pension,8464.26,2024-10-25,Richmond,1,Amount Exceeds Threshold,EMP008
+TXN00280,C005,Emma Singh,Medical Reimbursement,1748.04,2024-02-25,Vancouver,0,,EMP006
+TXN00281,C013,Maria Garcia,Short-Term Disability,1681.28,2024-01-24,Kelowna,0,,EMP004
+TXN00282,C006,Frank Lee,Medical Reimbursement,1649.97,2024-02-07,Abbotsford,0,,EMP009
+TXN00283,C005,Emma Singh,Medical Reimbursement,2945.18,2024-03-06,Surrey,0,,EMP006
+TXN00284,C009,Irene Brown,Rehabilitation Allowance,2125.42,2024-04-11,Burnaby,0,,EMP001
+TXN00285,C001,Alice Johnson,Weekly Benefit,1532.69,2024-12-31,Burnaby,0,,EMP008
+TXN00286,C003,Carol White,Medical Reimbursement,2849.01,2024-06-16,Burnaby,0,,EMP007
+TXN00287,C010,James Wilson,Rehabilitation Allowance,2622.24,2024-09-16,Kelowna,0,,EMP010
+TXN00288,C005,Emma Singh,Short-Term Disability,1528.73,2024-07-07,Vancouver,1,Inactive Claimant Status,EMP007
+TXN00289,C010,James Wilson,Rehabilitation Allowance,1844.1,2024-11-01,Vancouver,0,,EMP010
+TXN00290,C010,James Wilson,Pension,1856.99,2024-10-25,Vancouver,0,,EMP010
+TXN00291,C013,Maria Garcia,Short-Term Disability,1332.83,2024-12-14,Burnaby,0,,EMP002
+TXN00292,C004,David Chen,Weekly Benefit,1721.32,2024-06-09,Prince George,0,,EMP004
+TXN00293,C007,Grace Kim,Medical Reimbursement,2352.71,2024-02-01,Prince George,0,,EMP009
+TXN00294,C006,Frank Lee,Short-Term Disability,2904.71,2024-06-09,Victoria,0,,EMP009
+TXN00295,C006,Frank Lee,Medical Reimbursement,2498.38,2024-12-12,Kelowna,0,,EMP005
+TXN00296,C010,James Wilson,Short-Term Disability,1413.81,2024-05-06,Richmond,0,,EMP005
+TXN00297,C013,Maria Garcia,Rehabilitation Allowance,2350.97,2024-12-19,Richmond,0,,EMP006
+TXN00298,C009,Irene Brown,Rehabilitation Allowance,2061.65,2024-03-03,Abbotsford,0,,EMP007
+TXN00299,C014,Nathan Scott,Rehabilitation Allowance,892.55,2024-05-28,Burnaby,0,,EMP002
+TXN00300,C006,Frank Lee,Short-Term Disability,1270.77,2024-09-02,Abbotsford,0,,EMP005
