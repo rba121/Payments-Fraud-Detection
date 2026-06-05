@@ -1,15 +1,4 @@
-' ============================================================
-' Payment Fraud Detection Dashboard — VBA Macros
-' WorkSafeBC Payment Review & Compliance
-' ============================================================
-' HOW TO USE:
-'   1. Open Payment_Fraud_Report.xlsx in Excel
-'   2. Press Alt + F11 to open the VBA editor
-'   3. Insert > Module, paste this code
-'   4. Run macros via Alt + F8
-' ============================================================
-
-' ---------- MACRO 1: Auto-Format All Sheets ----------
+'MACRO 1: Auto-Format All Sheets 
 Sub FormatAllSheets()
     Dim ws As Worksheet
     For Each ws In ThisWorkbook.Worksheets
@@ -22,7 +11,7 @@ Sub FormatAllSheets()
     MsgBox "All sheets formatted successfully.", vbInformation
 End Sub
 
-' ---------- MACRO 2: Highlight Overpayments Red ----------
+'MACRO 2: Highlight Overpayments Red
 Sub HighlightOverpayments()
     Dim ws As Worksheet
     Dim lastRow As Long
@@ -35,7 +24,7 @@ Sub HighlightOverpayments()
 
     For i = 4 To lastRow
         If ws.Cells(i, 5).Value > threshold Then
-            ws.Rows(i).Interior.Color = RGB(255, 199, 199)  ' Light red
+            ws.Rows(i).Interior.Color = RGB(255, 199, 199) 
             ws.Cells(i, 5).Font.Bold = True
             ws.Cells(i, 5).Font.Color = RGB(192, 0, 0)
         End If
@@ -44,7 +33,7 @@ Sub HighlightOverpayments()
     MsgBox "Overpayments highlighted.", vbInformation
 End Sub
 
-' ---------- MACRO 3: Add AutoFilter to Flagged Transactions ----------
+'MACRO 3: Add Autofilter to Flagged Transactions
 Sub AddFlagFilter()
     Dim ws As Worksheet
     Set ws = ThisWorkbook.Sheets("Flagged Transactions")
@@ -52,7 +41,7 @@ Sub AddFlagFilter()
     MsgBox "Filter applied to Flagged Transactions sheet. Use dropdowns to filter by region, flag reason, etc.", vbInformation
 End Sub
 
-' ---------- MACRO 4: Export Flagged Transactions to New Workbook ----------
+'MACRO 4: Export Flagged Transactions to New Workbook
 Sub ExportFlaggedToNewWorkbook()
     Dim srcWs As Worksheet
     Dim newWb As Workbook
@@ -75,13 +64,13 @@ Sub ExportFlaggedToNewWorkbook()
     MsgBox "Exported flagged transactions to: " & savePath, vbInformation
 End Sub
 
-' ---------- MACRO 5: Generate Summary Statistics in New Sheet ----------
+'MACRO 5: Generate Summary Statistics
 Sub GenerateSummaryStats()
     Dim wb As Workbook
     Dim ws As Worksheet
     Set wb = ThisWorkbook
 
-    ' Delete if already exists
+    'Delete if already exists
     On Error Resume Next
     Application.DisplayAlerts = False
     wb.Sheets("Quick Stats").Delete
@@ -91,13 +80,13 @@ Sub GenerateSummaryStats()
     Set ws = wb.Sheets.Add(After:=wb.Sheets(wb.Sheets.Count))
     ws.Name = "Quick Stats"
 
-    ' Header
+    'Header
     ws.Range("A1").Value = "Quick Statistics — Auto Generated"
     ws.Range("A1").Font.Bold = True
     ws.Range("A1").Font.Size = 13
     ws.Range("A1").Font.Color = RGB(31, 78, 121)
 
-    ' Pull stats from Executive Summary sheet
+    'Pull stats from Executive Summary 
     Dim sumWs As Worksheet
     Set sumWs = wb.Sheets("Executive Summary")
 

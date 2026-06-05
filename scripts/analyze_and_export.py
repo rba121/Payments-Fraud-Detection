@@ -66,7 +66,6 @@ def write_df_to_sheet(ws, df, start_row=1, flag_col=None, alt_row_color="EBF3FB"
 def build_report():
     conn = sqlite3.connect(DB_PATH)
 
-    # --- Run all queries ---
     summary = run_query(conn, """
         SELECT COUNT(*) AS total_transactions,
                ROUND(SUM(amount),2) AS total_disbursed,
@@ -130,10 +129,9 @@ def build_report():
 
     conn.close()
 
-    # --- Build Workbook ---
     wb = openpyxl.Workbook()
 
-    # ===================== SHEET 1: Executive Summary =====================
+    #Executive Summary
     ws1 = wb.active
     ws1.title = "Executive Summary"
 
@@ -149,7 +147,7 @@ def build_report():
     sub.font = Font(italic=True, size=9, name="Arial", color="666666")
     sub.alignment = Alignment(horizontal="center")
 
-    # KPI boxes
+    #KPI boxes
     ws1["A4"] = "Metric"
     ws1["B4"] = "Value"
     style_header_row(ws1, 4)
@@ -176,32 +174,32 @@ def build_report():
     ws1.column_dimensions["A"].width = 32
     ws1.column_dimensions["B"].width = 22
 
-    # Fraud type breakdown table
+    #Fraud type breakdown
     ws1["A12"] = "Fraud Type Breakdown"
     ws1["A12"].font = Font(bold=True, size=11, name="Arial", color="1F4E79")
 
     write_df_to_sheet(ws1, fraud_breakdown, start_row=13)
 
-    # ===================== SHEET 2: Overpayments =====================
+    #Overpayments
     ws2 = wb.create_sheet("Overpayments")
     ws2["A1"] = "Transactions Exceeding Payment Threshold ($4,500)"
     ws2["A1"].font = Font(bold=True, size=12, name="Arial", color="C00000")
     ws2["A1"].alignment = Alignment(horizontal="left")
     write_df_to_sheet(ws2, overpayments, start_row=3)
 
-    # ===================== SHEET 3: High Risk Claimants =====================
+    #High Risk Claimants
     ws3 = wb.create_sheet("High Risk Claimants")
     ws3["A1"] = "Claimants with 2+ Flagged Transactions"
     ws3["A1"].font = Font(bold=True, size=12, name="Arial", color="C00000")
     write_df_to_sheet(ws3, high_risk, start_row=3)
 
-    # ===================== SHEET 4: Regional Analysis =====================
+    #Regional Analysis
     ws4 = wb.create_sheet("Regional Analysis")
     ws4["A1"] = "Payment Fraud Rate by Region"
     ws4["A1"].font = Font(bold=True, size=12, name="Arial", color="1F4E79")
     write_df_to_sheet(ws4, regional, start_row=3)
 
-    # Bar chart for regional fraud rate
+    #Plot
     chart = BarChart()
     chart.type = "col"
     chart.title = "Flag Rate by Region (%)"
@@ -217,19 +215,19 @@ def build_report():
     chart.set_categories(cats)
     ws4.add_chart(chart, "H3")
 
-    # ===================== SHEET 5: Monthly Trend =====================
+    #Monthly Trend
     ws5 = wb.create_sheet("Monthly Trend")
     ws5["A1"] = "Monthly Payment Volume & Fraud Flags"
     ws5["A1"].font = Font(bold=True, size=12, name="Arial", color="1F4E79")
     write_df_to_sheet(ws5, monthly, start_row=3)
 
-    # ===================== SHEET 6: Payment Type Analysis =====================
+    #Payment Type Analysis
     ws6 = wb.create_sheet("Payment Type Analysis")
     ws6["A1"] = "Fraud Rate by Payment Type"
     ws6["A1"].font = Font(bold=True, size=12, name="Arial", color="1F4E79")
     write_df_to_sheet(ws6, payment_type, start_row=3)
 
-    # ===================== SHEET 7: All Flagged Transactions =====================
+    #All Flagged Transactions
     ws7 = wb.create_sheet("Flagged Transactions")
     ws7["A1"] = "All Flagged Transactions — Full Review Log"
     ws7["A1"].font = Font(bold=True, size=12, name="Arial", color="C00000")

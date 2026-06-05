@@ -1,9 +1,4 @@
--- ============================================================
--- Payment Fraud Detection & Analysis Queries
--- WorkSafe BC Payment Review & Compliance
--- ============================================================
-
--- 1. OVERVIEW: Total payments and flagged transactions summary
+--Total payments and flagged transactions summary
 SELECT
     COUNT(*) AS total_transactions,
     SUM(amount) AS total_disbursed,
@@ -12,7 +7,7 @@ SELECT
     ROUND(SUM(CASE WHEN is_flagged = 1 THEN amount ELSE 0 END), 2) AS flagged_amount
 FROM transactions;
 
--- 2. FRAUD BREAKDOWN: Count and total by flag reason
+--Fraud Breakdown: Count and total by flag reason
 SELECT
     flag_reason,
     COUNT(*) AS occurrences,
@@ -23,7 +18,7 @@ WHERE is_flagged = 1
 GROUP BY flag_reason
 ORDER BY total_amount DESC;
 
--- 3. OVERPAYMENT DETECTION: Payments exceeding threshold (> $4500)
+--Overpayment Detection: Payments exceeding threshold (> $4500)
 SELECT
     transaction_id,
     claimant_id,
@@ -36,7 +31,7 @@ FROM transactions
 WHERE amount > 4500
 ORDER BY amount DESC;
 
--- 4. DUPLICATE DETECTION: Same claimant, same amount, same day
+--Duplicate Detection
 SELECT
     t1.claimant_id,
     t1.claimant_name,
@@ -52,7 +47,7 @@ GROUP BY t1.claimant_id, t1.payment_date, t1.amount
 HAVING COUNT(*) > 1
 ORDER BY duplicate_count DESC;
 
--- 5. HIGH RISK CLAIMANTS: Multiple flags across history
+--High Risks Claimants: Multiple flags 
 SELECT
     claimant_id,
     claimant_name,
@@ -65,7 +60,7 @@ GROUP BY claimant_id, claimant_name
 HAVING SUM(is_flagged) >= 2
 ORDER BY total_flags DESC;
 
--- 6. REGIONAL BREAKDOWN: Payment volume and fraud rate by region
+--Regional Breakdown
 SELECT
     region,
     COUNT(*) AS total_payments,
@@ -76,7 +71,7 @@ FROM transactions
 GROUP BY region
 ORDER BY flag_rate_pct DESC;
 
--- 7. MONTHLY TREND: Payment volume and flags over time
+--Monthly Trend
 SELECT
     SUBSTR(payment_date, 1, 7) AS month,
     COUNT(*) AS total_payments,
@@ -86,7 +81,7 @@ FROM transactions
 GROUP BY month
 ORDER BY month;
 
--- 8. PAYMENT TYPE ANALYSIS: Which payment types have highest fraud rate
+--Payment Type Analysis
 SELECT
     payment_type,
     COUNT(*) AS total,
@@ -97,7 +92,7 @@ FROM transactions
 GROUP BY payment_type
 ORDER BY fraud_rate_pct DESC;
 
--- 9. PROCESSOR REVIEW: Flag counts by employee who processed payment
+--Processor Review:  Flag counts by employee who processed payment
 SELECT
     processed_by,
     COUNT(*) AS total_processed,
@@ -107,7 +102,7 @@ FROM transactions
 GROUP BY processed_by
 ORDER BY flag_rate_pct DESC;
 
--- 10. DETAILED FLAGGED TRANSACTIONS REPORT (full export for review)
+--Detailed Flagged transactions summary
 SELECT
     transaction_id,
     claimant_id,

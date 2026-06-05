@@ -40,7 +40,7 @@ def generate_transactions(n=300):
 
         r = random.random()
 
-        # Inject fraud patterns
+        #fraud patterns
         if r < 0.04:  # Duplicate payment
             amount = round(random.uniform(800, 3000), 2)
             is_flagged = 1
