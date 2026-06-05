@@ -8,8 +8,6 @@ A data analysis pipeline for detecting fraudulent and anomalous payment transact
 
 This project simulates a payment review workflow similar to those used in government and insurance organizations. It ingests transaction records, runs SQL-based fraud detection queries, and outputs a formatted multi-sheet Excel report with flagged transactions, regional breakdowns, and trend analysis.
 
-**Designed to mirror real-world payment compliance workflows.**
-
 ---
 
 ## Tech Stack
